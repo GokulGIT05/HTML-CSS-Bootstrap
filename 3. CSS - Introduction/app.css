@@ -1,0 +1,20 @@
+h1{
+	/*Option 1. build-in colors - rarely used*/
+	color: red;
+}
+
+li {
+	/* Option 2. using hexa-decimal value. first two digits denots Red, 
+	then next two Green, then next two blue. */
+	color: #827d71;
+}
+
+h3 {
+	/* Option 3. Using color picker  for rgb value*/
+	color: rgb(0,0,255);  /*this will be blue color*/
+}
+
+p {
+	/* Option 4. Using rgba ( a means alpha[transparency] index from 0.0 to 1.0 )*/
+	color: rgba(0,0,255,0.6);
+}

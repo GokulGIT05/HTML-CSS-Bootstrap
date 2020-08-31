@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Type Demo</title>
+</head>
+<body>
+
+	
+	<form>
+		<p>Do you want Dog or Cat ?</p>
+		<!-- 1. Radio Button -->
+		<label for="dog">Dog:</label>
+		<input type="radio" name="petChoice" id="dog" value="DOG">
+
+		<label for="cat">Cat:</label>
+		<input type="radio" name="petChoice" id="cat" value="CAT">
+
+		<p>Which color you want ?</p>
+		<!-- 2. Drop Down -->
+		<select name="colorSelected">
+			<option value="YELLOW">Yellow</option>
+			<option value="ORANGE">Orange</option>
+			<option value="BROWN">Brown</option>
+		</select>
+
+		<br>
+		<!-- 3. Text Area -->
+		<label for="commentId"> Comments:</label>
+		<textarea  rows="10" cols="20" name="comments" id="commentId">
+		</textarea>
+
+		<button>Go for Selection!!!</button>
+
+	</form>
+</body>
+</html>
+
+	<!-- 
+	Output URL:
+	After submitting URL will be "file:///Users/gokulgopi/gitgokul/HTML-CSS-Bootstrap/DropdownAndRadioButtons.html?petChoice=DOG&colorSelected=ORANGE&comments=This+is+Test." 
+	-->
+
+	<!-- 
+	Important Note for radio buttons:
+		1. form tag is used to container all inside tag.
+		2. type="radio" is used to denote radio button.
+		3. VERY IMPORTANT: name="petChoice" -> this tag only allows one value at a time. i.e it groups radio button and make to select only one out of all. If name tag is not there, then we can select all radio buttons.
+		4. value is used to sent the value of selected radion buttion. If value attribute is not there then it will go as 'on'. Query parameter will change.
+			Ex: 1. If value attribute is present ==? DropdownAndRadioButtons.html?petChoice=DOG
+				2. If value attribute is not present ==? DropdownAndRadioButtons.html?petChoice=on
+	-->
+
+	 <!-- 
+	 Important Note for dropdown:
+	 	1. name attribute will be key nad value attribute will go as value of option selected.
+	 	2. Lets say we are not giving value attibute then it will take default text from options.
+	 -->
+
+
+
+
+
+
+
+
+
+
+

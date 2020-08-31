@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Class</title>
+</head>
+<body>
+
+	<h1>Login without Forms</h1>
+
+	<input type="text" name="userName" placeholder="username">
+	<input type="password" name="password:" placeholder="password">
+	<input type="radio" name="RadioButton">
+	<input type="color" name="Color Box">
+	<input type="submit" name="SUBMIT">
+
+	<br><hr><br>
+	
+	<!-- Two important points in forms:
+		1. action - URI location while submiting where to go
+		2. method - HTTP request methods (get/post) -->
+
+		<!-- name tag is a query parameter. after submitting it wil show in url for get Request -->
+
+		<h1>Login using Forms</h1>
+		<form>
+			<input type="text" name="username" placeholder="username">
+			<input type="password" name="password" placeholder="password">
+			<input type="submit" name="SUBMIT">
+		</form>
+
+	<!-- 
+	Notes:
+		1. If we are not specifing the action, then it will go back to default and resetting the value.
+		2. by default method will be get.
+	-->
+	<br><hr><br>
+
+	<h1>Wikepedia Login</h1>
+
+	<form action="https://www.wikipedia.org/" method="GET">
+		<input type="text" name="username" placeholder="username">
+		<input type="password" name="password" placeholder="password">
+		<input type="submit">
+	</form>
+
+	<br><hr><br>
+
+	<!-- label elemens is used for visually impared peoples. -->
+	<h1>Login using Labels</h1>
+	<form>
+		<label>
+			User Name:
+			<input type="text" name="username" placeholder="username">
+		</label>
+		<label>
+			Password:
+			<input type="password" name="password" placeholder="password">
+		</label>
+		<input type="submit" name="SUBMIT">
+	</form>
+
+	<br><hr><br>
+	<!-- Alternate approact to labes using for & id -->
+	<h1>Login using Labels - Alternate Approach</h1>
+	<form>
+		<!-- Label & input has to come in order to get the value right ie. First Label tag followed by input tag-->
+		<label for="usernameId">User Name:: </label>
+		<input id="usernameId" type="text" name="username" placeholder="username">
+		<label for="passwordId">Password: </label>
+		<input id="passwordId" type="password" name="password" placeholder="password">
+		<input type="submit" name="SUBMIT">
+	</form>
+
+	<br><hr><br>
+
+
+	<!-- Form Validations -->
+	<h1>Form Validation for Login to Wikipedia</h1>
+	<form action="https://www.wikipedia.org/" method="GET">
+		<label for="emailId">Email: </label>
+		<input type="email" name="email" placeholder="Enter a e-mail address" id="emailId" required="">
+
+		<label for="passwordId">Password:</label>
+		<input type="password" name="password" placeholder="Enter a password" id="passwordId" required="">
+
+		<input type="submit" name="submit">
+	</form>
+
+	<br><hr><br>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

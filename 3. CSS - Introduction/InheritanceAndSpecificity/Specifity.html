@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+<style type="text/css">
+	
+	body{
+		color: red;
+	}
+
+	/*Green Color is overridden from the body color*/
+	ul{
+		color : green;
+	}
+
+	/* CSS will PRIORITY to closest element selection */
+	li {
+		color: blue;
+	}
+
+	/*class is selected by . */
+	.slectedStyle{
+		color: purple;
+	}
+
+	#name01Id {
+		color: orange;
+	}
+
+
+	/* You will find the difference in developer option "Inspect Element" in chrome. All above style will be applied and give more priority to specify element selection. */
+
+
+</style>
+
+</head>
+<body>
+
+<p>Inheritance color from parent</p>
+<ul>
+	<li id="name01Id" class="slectedStyle">Gokul-01</li>
+	<li>Gokul-02</li>
+	<li>Gokul-03</li>
+	<li>Gokul-04</li>
+	<li class="slectedStyle">Gokul-05</li>
+</ul>
+
+</body>
+</html>

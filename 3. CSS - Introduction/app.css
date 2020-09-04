@@ -1,6 +1,16 @@
 h1{
 	/*Option 1. build-in colors - rarely used*/
 	color: red;
+
+	/*Settiing border*/
+/*
+	border-width: 5px;
+	border-color: black;
+	border-style: solid; 
+*/
+	/*Alternate way for above setting is*/
+
+	border: 7px black solid;
 }
 
 li {
@@ -12,9 +22,24 @@ li {
 h3 {
 	/* Option 3. Using color picker  for rgb value*/
 	color: rgb(0,0,255);  /*this will be blue color*/
+	background: rgb(255,0,0);
 }
 
 p {
 	/* Option 4. Using rgba ( a means alpha[transparency] index from 0.0 to 1.0 )*/
 	color: rgba(0,0,255,0.6);
 }
+
+div	{
+	background: rgb(255,100,50);
+}
+
+body {
+	background: yellow;
+
+	/*To set picture in the background and its settings*/
+	/*background: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+}	

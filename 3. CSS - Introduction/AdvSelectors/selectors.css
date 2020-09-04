@@ -1,0 +1,62 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+
+* {
+	border: 2px solid lightgrey;
+}
+
+/*Descendant Selector*/
+/*This will select all 'a' tag which comes inside li tag.*/
+ 
+li a {
+	color: red;
+}
+
+/*Adjacent Selector*/
+/*This will select the element which comes after the first element, that is done by '+' sign*/
+
+h4 + ul {
+
+	border: 5px solid green;
+}
+
+/*Attribute Selector*/
+
+
+/*mostly used with input tag. like input[type ="text"] {}*/
+
+a[href="http://www.google.com"] {
+	background: yellow;
+}
+
+/*nth of type*/
+
+/*Which is used to select the element by number of items*/
+
+ul:nth-of-type(3){
+	background: black;
+}
+
+/*This will select 3rd element of every group of li element*/
+/*li:nth-of-type(3){
+	background: purple;
+}*/
+
+li:nth-of-type(even){
+	background: purple;
+}
+
+
+

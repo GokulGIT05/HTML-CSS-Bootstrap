@@ -1,0 +1,17 @@
+/*using em:*/
+
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+p {
+	font-size: 2em;
+}
+
+span {
+	font-size: 3em;  /*Here the font-size: is 40PX ( 10 * 2(p) * 2(span) )*/
+}

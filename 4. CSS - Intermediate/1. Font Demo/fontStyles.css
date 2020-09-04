@@ -1,0 +1,90 @@
+
+/* 1. font-family*/
+
+p {
+	font-family: Arial;
+
+	/*font-family: "Arial Black"*/
+
+
+	/*if font name starts with number then compuslory we need to enclose this with double qutes.*/
+}
+
+
+h1	{
+	font-family: Helvetica;
+}
+
+/***********************************/
+
+ /*2. Font Size */
+
+ h1 {
+ 	font-size: 60px
+ } 
+
+ /* em - this is dynamic. This will double the font size of its parent element.*/
+p {
+	/*parent element of span*/
+	font-size: 20px;
+}
+
+span {
+	font-size: 2em;  /*increase the font size  to 40px ( 20 * 2)*/
+}
+
+/***********************************/
+
+/*3. font-weight */
+
+p {
+	/*font-weight: bold; */
+	font-weight: normal;
+}
+
+/***********************************/
+
+ /*4. line-height */
+
+p {
+	line-height: 1.5; /*Which is line spacing, it mutliples with current font size*/
+}
+/***********************************/
+
+
+ /*5. text-align */
+
+ h1 {
+ 	text-align: right;
+ }
+
+p {
+	text-align: center;
+}
+
+
+/***********************************/
+
+ /*6. text-decoration */
+
+p {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

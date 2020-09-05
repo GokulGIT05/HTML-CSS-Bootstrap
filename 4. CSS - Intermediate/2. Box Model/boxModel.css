@@ -1,0 +1,28 @@
+
+p{
+	/* 1. Content width & Property */
+
+	/*  width: 200px;*/
+
+	/*In percentage --> it will take its parent 50% size, in this case its body.*/
+
+	width: 50%;
+
+	/*2. border: */
+
+	border: 2px solid red;
+
+	/*3. padding:  Padding -> between the text and border size. */
+
+	padding: 10px;
+	padding-top:25px; 
+
+	/*4. margin:  marging -> between the border and outside of anything in page*/
+	/*margin: 50px;
+	margin-left: 75px;*/
+
+	/*Like border: we can do all this in in-line*/
+
+	/*       top right bottom left; */
+	margin:  50px 40px 100px 50px ;
+}	

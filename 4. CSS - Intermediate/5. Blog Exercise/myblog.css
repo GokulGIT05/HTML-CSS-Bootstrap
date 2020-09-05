@@ -1,0 +1,44 @@
+
+body {
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+
+	 /*This will enable the auto scalling of text;*/
+	max-width: 800px;
+	width: 80%;
+
+	margin: 20px auto; /*top & botton is 0. auto for left & right */
+
+	font-family: Source Sans Pro;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+
+.date {
+	text-transform: uppercase;
+	color: #3498db;
+	/*letter-spacing: 10px;*/
+	letter-spacing: 0.2rem; /*relative spacing */
+}
+
+h2 {
+
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+/*Took this from Google*/
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.post {
+	margin-bottom: 20px;
+}

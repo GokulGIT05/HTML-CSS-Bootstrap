@@ -2,17 +2,22 @@
 /* 1. font-family*/
 
 p {
-	font-family: Arial;
+	/*font-family: Arial;*/
 
 	/*font-family: "Arial Black"*/
 
 
 	/*if font name starts with number then compuslory we need to enclose this with double qutes.*/
+
+	/*Google Font*/
+	font-family: Roboto;
+
 }
 
 
 h1	{
-	font-family: Helvetica;
+	/*Google Font*/
+	font-family: 'Architects Daughter', cursive;
 }
 
 /***********************************/
